@@ -1,5 +1,10 @@
 $(function () {
-    AOS.init();
+    AOS.init({
+        once: true,
+    });
+    $(window).on('load', function () {
+        AOS.refresh();
+    });
 
     $('#toggle_button').on('click', function (e) {
         e.preventDefault();
