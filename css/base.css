@@ -1,13 +1,16 @@
 @font-face {
     font-family: 'YOON-DONG-JU1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/YOON-DONG-JU1.woff') format('woff');
+    src: url('../font/yoon.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@700&display=swap');
-
-/* font-family: 'Noto Sans KR', sans-serif; */
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url('../font/NotoSansKR-Light.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'KyoboHandwriting2020A';
