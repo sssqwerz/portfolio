@@ -1024,7 +1024,7 @@
 
 .cont8_up {
     position: absolute;
-    top: 70px;
+    top: 90px;
     left: 70px;
     display: flex;
 }
@@ -1035,7 +1035,7 @@
 
 .cont8_down {
     position: absolute;
-    bottom: 70px;
+    bottom: 90px;
     left: 70px;
     display: flex;
 }
