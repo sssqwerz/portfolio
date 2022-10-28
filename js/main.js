@@ -22,28 +22,28 @@ $(function () {
     $('.top_menu li:nth-child(2)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 1.115
+            scrollTop: winHeight * 1
         });
     });
 
     $('.top_menu li:nth-child(3)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 5.115
+            scrollTop: winHeight * 5
         });
     });
 
     $('.top_menu li:nth-child(4)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 7.115
+            scrollTop: winHeight * 7
         });
     });
 
     $('.top_menu li:nth-child(5)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 11.115
+            scrollTop: winHeight * 11
         });
     });
 
