@@ -105,10 +105,10 @@ $(function () {
                 $('ul li').removeClass('on');
                 $('ul li').eq(4).addClass('on');
             }
-        } //for
-    }//function scrollPage
+        }
+    }
 
-    $(window).on('scroll', scrollPage);
+/*     $(window).on('scroll', scrollPage);
     scrollPage();
 
     $('#wrap>div').on('mousewheel', function (e, d) {
@@ -123,7 +123,7 @@ $(function () {
                 scrollTop: nxt
             })
         }
-    })
+    }) */
 
     $(".count").each(function () {
         $(this)
