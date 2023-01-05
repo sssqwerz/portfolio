@@ -806,19 +806,19 @@
 }
 
 #work2 .sis .thumb:nth-child(1) {
-    background-image: url(../img/works01.jpg);
+    background-image: url(../img/works05.jpg);
 }
 
 #work2 .sis .thumb:nth-child(2) {
-    background-image: url(../img/works02.jpg);
+    background-image: url(../img/works06.jpg);
 }
 
 #work2 .sis .thumb:nth-child(3) {
-    background-image: url(../img/works03.jpg);
+    background-image: url(../img/works07.jpg);
 }
 
 #work2 .sis .thumb:nth-child(4) {
-    background-image: url(../img/works04.jpg);
+    background-image: url(../img/works08.jpg);
 }
 
 #work2 .sis .thumb a {
