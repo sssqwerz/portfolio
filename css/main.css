@@ -736,11 +736,11 @@
 }
 
 #work .cont .wide_play:nth-child(3) {
-    background: url(../img/work_click03.jpg) no-repeat center center / cover;
+    background: url(../img/click03.png) no-repeat center center / cover;
 }
 
 #work .cont .wide_play:nth-child(4) {
-    background: url(../img/work_click04.jpg) no-repeat center center / cover;
+    background: url(../img/click04.jpg) no-repeat center center / cover;
 }
 
 #work .cont .wide_play .playin {
@@ -866,11 +866,11 @@
 }
 
 #work2 .bro .wide_play:nth-child(1) {
-    background: url(../img/work_click01.jpg) no-repeat center center / cover;
+    background: url(../img/click05.jpg) no-repeat center center / cover;
 }
 
 #work2 .bro .wide_play:nth-child(2) {
-    background: url(../img/work_click02.jpg) no-repeat center center / cover;
+    background: url(../img/click06.jpg) no-repeat center center / cover;
 }
 
 #work2 .bro .wide_play:nth-child(3) {
