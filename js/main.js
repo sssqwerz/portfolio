@@ -182,13 +182,23 @@ $(function () {
 
     }, timer);
 
-    $('.list>div').on('click', function (e) {
+    $('#wrap .list>div').on('click', function (e) {
         e.preventDefault();
         let i = $(this).index();
         $('.cont>div').eq(i).fadeIn().siblings().hide();
     });
 
-    $('.cont>div .close').on('click', function () {
+    $('#wrap .cont>div .close').on('click', function () {
+        $(this).parents('.wide_play').fadeOut();
+    })
+
+    $('#wrap2 .list>div').on('click', function (e) {
+        e.preventDefault();
+        let i = $(this).index();
+        $('.cont>div').eq(i).fadeIn().siblings().hide();
+    });
+
+    $('#wrap2 .cont>div .close').on('click', function () {
         $(this).parents('.wide_play').fadeOut();
     })
 
