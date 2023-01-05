@@ -41,14 +41,14 @@ $(function () {
     $('.top_menu li:nth-child(4)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 7
+            scrollTop: winHeight * 8
         });
     });
 
     $('.top_menu li:nth-child(5)').on('click', function () {
         $(this).addClass('on').siblings().removeClass('on');
         $('html, body').animate({
-            scrollTop: winHeight * 11
+            scrollTop: winHeight * 12
         });
     });
 
@@ -182,23 +182,23 @@ $(function () {
 
     }, timer);
 
-    $('#wrap .list>div').on('click', function (e) {
+    $('.list>div').on('click', function (e) {
         e.preventDefault();
         let i = $(this).index();
         $('.cont>div').eq(i).fadeIn().siblings().hide();
     });
 
-    $('#wrap .cont>div .close').on('click', function () {
+    $('.cont>div .close').on('click', function () {
         $(this).parents('.wide_play').fadeOut();
     })
 
-    $('#wrap2 .list>div').on('click', function (e) {
+    $('.sis>div').on('click', function (e) {
         e.preventDefault();
         let i = $(this).index();
-        $('.cont>div').eq(i).fadeIn().siblings().hide();
+        $('.bro>div').eq(i).fadeIn().siblings().hide();
     });
 
-    $('#wrap2 .cont>div .close').on('click', function () {
+    $('.bro>div .close').on('click', function () {
         $(this).parents('.wide_play').fadeOut();
     })
 
