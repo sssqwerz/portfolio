@@ -522,7 +522,7 @@
 
 .profile_skill {
     position: absolute;
-    bottom: 70px;
+    bottom: 50px;
     display: flex;
 }
 
@@ -540,7 +540,7 @@
     height: auto;
 }
 
-.profile_skill span {
+/* .profile_skill span {
     color: #fff;
     font-size: 20px;
     position: absolute;
@@ -555,7 +555,7 @@
 
 .profile_skill .percent {
     left: 75px;
-}
+} */
 
 .intro1 {
     width: 100%;
