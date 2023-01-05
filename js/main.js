@@ -125,23 +125,23 @@ $(function () {
         }
     }) */
 
-    $(".count").each(function () {
-        $(this)
-            .prop("Counter", 0)
-            .animate(
-                {
-                    Counter: $(this).text(),
-                },
-                {
-                    duration: 4000,
-                    easing: "swing",
-                    step: function (now) {
-                        now = Number(Math.ceil(now)).toLocaleString('en');
-                        $(this).text(now);
-                    },
-                }
-            );
-    });
+    // $(".count").each(function () {
+    //     $(this)
+    //         .prop("Counter", 0)
+    //         .animate(
+    //             {
+    //                 Counter: $(this).text(),
+    //             },
+    //             {
+    //                 duration: 4000,
+    //                 easing: "swing",
+    //                 step: function (now) {
+    //                     now = Number(Math.ceil(now)).toLocaleString('en');
+    //                     $(this).text(now);
+    //                 },
+    //             }
+    //         );
+    // });
 
     var sentences = new Array('제 1부 자화상(自畵像)', '다시 그 사나이가 미워져 돌아갑니다', '돌아가다 생각해보니 그 사나이가 그리워집니다');
 
