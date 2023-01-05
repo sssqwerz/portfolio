@@ -732,7 +732,7 @@
 }
 
 #work .cont .wide_play:nth-child(2) {
-    background: url(../img/work_click02.jpg) no-repeat center center / cover;
+    background: url(../img/back01.png) no-repeat center center / cover;
 }
 
 #work .cont .wide_play:nth-child(3) {
@@ -775,6 +775,7 @@
 
 #work .cont .wide_play .playin .info {
     width: 325px;
+    color: #fff;
 }
 
 #work .cont .wide_play .playin .info h3 {
