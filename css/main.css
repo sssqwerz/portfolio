@@ -750,11 +750,11 @@
 }
 
 #work .cont .wide_play:nth-child(3) {
-    background: url(../img/click04.png) no-repeat center center / cover;
+    background: url(../img/click04.jpg) no-repeat center center / cover;
 }
 
 #work .cont .wide_play:nth-child(4) {
-    background: url(../img/click03.jpg) no-repeat center center / cover;
+    background: url(../img/click03.png) no-repeat center center / cover;
 }
 
 #work .cont .wide_play .playin {
@@ -902,11 +902,11 @@
 }
 
 #work2 .bro .wide_play:nth-child(3) {
-    background: url(../img/click08.jpg) no-repeat center center / cover;
+    background: url(../img/click08.png) no-repeat center center / cover;
 }
 
 #work2 .bro .wide_play:nth-child(4) {
-    background: url(../img/click07.png) no-repeat center center / cover;
+    background: url(../img/click07.jpg) no-repeat center center / cover;
 }
 
 #work2 .bro .wide_play .playin {
