@@ -669,7 +669,7 @@
 }
 
 #work .list .thumb:nth-child(1) {
-    background-image: url(../img/works01.jpg);
+    background-image: url(../img/works01.png);
 }
 
 #work .list .thumb:nth-child(2) {
@@ -743,7 +743,7 @@
 }
 
 #work .cont .wide_play:nth-child(1) {
-    background: url(../img/work_click01.jpg) no-repeat center center / cover;
+    background: url(../img/click01.png) no-repeat center center / cover;
 }
 
 #work .cont .wide_play:nth-child(2) {
